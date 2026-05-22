@@ -1,0 +1,30 @@
+:root {
+  /* База */
+  --color-bg: #f5f9f5;
+  --color-primary: #7dab7d;
+  --color-primary-light: #a8c9a8;
+  --color-primary-dark: #5a8a5a;
+  --color-accent: #c8e6c8;
+
+  /* Текст */
+  --color-text: #3a3a3a;
+  --color-text-light: #7a7a7a;
+  --color-white: #ffffff;
+
+  /* Шрифты */
+  --font-main: 'Cormorant Garamond', Georgia, serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2.5rem;
+
+  /* Отступы */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  /* Прочее */
+  --border-radius: 12px;
+  --transition: 0.3s ease;
+}
