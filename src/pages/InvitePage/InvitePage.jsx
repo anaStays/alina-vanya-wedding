@@ -3,6 +3,7 @@ import InviteCard from '../../components/InviteCard/InviteCard'
 import WeddingCalendar from '../../components/WeddingCalendar/WeddingCalendar'
 import photo from '../../assets/photo.jpg'
 import LocationBlock from '../../components/LocationBlock/LocationBlock'
+import Timeline from '../../components/Timeline/Timeline'
 
 export default function InvitePage() {
   return (
@@ -16,6 +17,7 @@ export default function InvitePage() {
         />
         <WeddingCalendar />
         <LocationBlock />
+        <Timeline />
       </div>
     </main>
   )
