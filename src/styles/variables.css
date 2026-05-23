@@ -55,12 +55,14 @@
     --spacing-md: 12px;
     --spacing-lg: 20px;
     --spacing-xl: 40px;
+
+    --border-radius: 8px;
   }
 }
 
 @media (max-width: 480px) {
   :root {
-    --font-size-sm: 0.7rem;
+    --font-size-sm: 0.6rem;
     --font-size-md: 0.8rem;
     --font-size-lg: 1rem;
     --font-size-xl: 1.5rem;
@@ -69,12 +71,14 @@
     --spacing-md: 8px;
     --spacing-lg: 16px;
     --spacing-xl: 28px;
+
+    --border-radius: 6px;
   }
 }
 
 @media (max-width: 360px) {
   :root {
-    --font-size-sm: 0.5rem;
+    --font-size-sm: 0.4rem;
     --font-size-md: 0.6rem;
     --font-size-lg: 0.875rem;
     --font-size-xl: 1.2rem;
@@ -83,5 +87,7 @@
     --spacing-md: 8px;
     --spacing-lg: 16px;
     --spacing-xl: 28px;
+
+    --border-radius: 6px;
   }
 }

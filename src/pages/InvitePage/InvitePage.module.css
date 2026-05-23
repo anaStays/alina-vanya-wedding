@@ -33,6 +33,7 @@
   align-items: center;
   padding: var(--spacing-lg) var(--spacing-md);
   position: relative;
+  overflow: hidden; 
   /* убираем background-image отсюда */
 }
 
