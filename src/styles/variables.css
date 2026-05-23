@@ -43,3 +43,45 @@
   --border-radius: 12px;
   --transition: 0.3s ease;
 }
+
+@media (max-width: 860px) {
+  :root {
+    --font-size-sm: 0.75rem;
+    --font-size-md: 0.875rem;
+    --font-size-lg: 1.2rem;
+    --font-size-xl: 1.8rem;
+
+    --spacing-sm: 6px;
+    --spacing-md: 12px;
+    --spacing-lg: 20px;
+    --spacing-xl: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-sm: 0.7rem;
+    --font-size-md: 0.8rem;
+    --font-size-lg: 1rem;
+    --font-size-xl: 1.5rem;
+
+    --spacing-sm: 4px;
+    --spacing-md: 8px;
+    --spacing-lg: 16px;
+    --spacing-xl: 28px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --font-size-sm: 0.5rem;
+    --font-size-md: 0.6rem;
+    --font-size-lg: 0.875rem;
+    --font-size-xl: 1.2rem;
+
+    --spacing-sm: 4px;
+    --spacing-md: 8px;
+    --spacing-lg: 16px;
+    --spacing-xl: 28px;
+  }
+}

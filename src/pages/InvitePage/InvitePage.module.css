@@ -1,4 +1,4 @@
-.page {
+/* .page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,6 +11,7 @@
     var(--invite-frame-dark) 65px,
     var(--invite-frame-dark) 80px
   );
+  background-image: url('../../assets/bg.jpg');
 }
 
 .scroll {
@@ -23,4 +24,60 @@
   flex-direction: column;
   align-items: center;
   padding: var(--spacing-lg);
+} */
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-lg) var(--spacing-md);
+  position: relative;
+  /* убираем background-image отсюда */
 }
+
+.page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../../assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px) brightness(1.1);
+  transform: scale(1.05);
+  z-index: 0;
+}
+
+.scroll {
+  position: relative;
+  z-index: 1; /* контент поверх размытого фона */
+  width: 100%;
+  max-width: 860px;
+  background-color: var(--invite-bg);
+  border: 18px solid var(--invite-frame);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-lg);
+}
+
+@media (max-width: 860px) {
+  .page {
+    padding: var(--spacing-md) var(--spacing-sm);
+  }
+
+  .scroll {
+    border-width: 8px;
+    padding: var(--spacing-md) var(--spacing-sm);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll {
+    border-width: 6px;
+    padding: var(--spacing-sm);
+  }
+}
+
