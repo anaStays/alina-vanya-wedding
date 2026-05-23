@@ -1,0 +1,35 @@
+.panel {
+  position: relative;
+  margin-top: var(--spacing-lg);
+  background-color: var(--invite-frame);
+  padding: 40px 32px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.corner {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+
+.cornerTL { top: 0; left: 0; transform: translate(-50%, -50%); }
+.cornerTR { top: 0; right: 0; transform: translate(50%, -50%); }
+.cornerBL { bottom: 0; left: 0; transform: translate(-50%, 50%); }
+.cornerBR { bottom: 0; right: 0; transform: translate(50%, 50%); }
+
+.quote {
+  font-family: var(--font-main);
+  font-size: var(--font-size-md);
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.author {
+  margin-top: var(--spacing-md);
+  font-size: var(--font-size-sm);
+  opacity: 0.7;
+  line-height: 1.6;
+}

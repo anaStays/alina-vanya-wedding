@@ -1,0 +1,113 @@
+.wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: var(--spacing-xl) auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.intro {
+  font-family: var(--font-main);
+  font-size: var(--font-size-md);
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.calendar {
+  width: 100%;
+  background-color: var(--invite-frame);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  color: var(--color-white);
+}
+
+.calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--spacing-lg);
+}
+
+.month {
+  font-family: var(--font-main);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.year {
+  font-family: var(--font-main);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.dayName {
+  font-family: var(--font-main);
+  font-size: var(--font-size-sm);
+  text-align: center;
+  opacity: 0.7;
+  padding-bottom: var(--spacing-sm);
+  letter-spacing: 0.05em;
+}
+
+.day {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  font-family: var(--font-main);
+  font-size: var(--font-size-lg);
+}
+
+.empty {
+  pointer-events: none;
+}
+
+.dayNumber {
+  position: relative;
+  z-index: 1;
+}
+
+.weddingDay {
+  color: var(--color-white);
+}
+
+.ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: var(--color-white);
+  top: 0;
+  left: 0;
+}
+
+.dateText {
+  font-family: var(--font-main);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.dateHighlight {
+  color: var(--invite-frame);
+  font-weight: 600;
+}
+
+.dateXlText {
+  font-family: var(--font-main);
+  font-size: var(--font-size-xl);
+  color: var(--color-text-muted);
+  text-align: center;
+  line-height: 1.8;
+}

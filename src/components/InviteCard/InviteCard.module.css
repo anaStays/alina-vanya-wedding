@@ -1,0 +1,111 @@
+.frame {
+  border: 18px solid var(--invite-frame);
+  background-color: var(--invite-bg);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.18);
+  width: 100%;
+  max-width: 860px;
+}
+
+.card {
+  border: 1px solid var(--invite-border);
+  padding: 40px;
+}
+
+@media (min-width: 640px) {
+  .card { padding: 56px; }
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: var(--font-main);
+  color: var(--invite-frame);
+}
+
+.monogram {
+  font-size: 1.5rem;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+.date {
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.25em;
+}
+
+.photoStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing-md);
+}
+
+.headlineTop {
+  font-family: var(--font-cursive);
+  font-size: 64px;
+  font-weight: 300;
+  color: var(--invite-frame);
+  text-shadow: 0 3px 0 white;
+  margin-bottom: -24px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 640px) {
+  .headlineTop { font-size: 84px; }
+}
+
+.photoWrap {
+  position: relative;
+  width: 260px;
+}
+
+@media (min-width: 640px) {
+  .photoWrap { width: 320px; }
+}
+
+.photoBg {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 1px solid var(--invite-border);
+  transform: rotate(-2deg);
+}
+
+.photo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid var(--invite-border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: rotate(1.5deg);
+}
+
+.headlineBottom {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  font-family: var(--font-cursive);
+  font-size: 72px;
+  color: var(--invite-frame);
+  text-shadow: 0 3px 0 white;
+}
+
+@media (min-width: 640px) {
+  .headlineBottom { font-size: 96px; }
+}
+
+.subtitle {
+  margin-top: 40px;
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+}
