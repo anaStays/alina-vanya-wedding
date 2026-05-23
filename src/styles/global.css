@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Petit+Formal+Script&family=Marck+Script&family=Cormorant+Garamond:wght@300;400;600&family=Great+Vibes&display=swap');
 @import './variables.css';
 
 * {
@@ -17,4 +17,23 @@ body {
   color: var(--color-text);
   font-family: var(--font-main);
   -webkit-font-smoothing: antialiased;
+}
+/* 
+@font-face {
+  font-family: 'Shelley Script';
+  src: url('../assets/fonts/ShelleyScriptLTStdRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'AnastasiaScriptC';
+  src: url('../assets/fonts/AnastasiaScriptC Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.num {
+  font-family: 'Petit Formal Script', Georgia, serif !important;
+  font-size: 0.8em;
 }

@@ -9,7 +9,7 @@ export default function InviteCard({ photo, bride, groom, date }) {
 
         <div className={styles.topRow}>
           <span className={styles.monogram}>{bride[0]}&{groom[0]}</span>
-          <span className={styles.date}>{date}</span>
+          <span className={`${styles.date} num`}>{date}</span>
         </div>
 
         <div className={styles.photoStack}>

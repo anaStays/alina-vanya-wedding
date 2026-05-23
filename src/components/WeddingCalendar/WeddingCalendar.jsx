@@ -29,7 +29,7 @@ export default function WeddingCalendar() {
       <div className={styles.calendar}>
         <div className={styles.calendarHeader}>
           <span className={styles.month}>Август</span>
-          <span className={styles.year}>2026</span>
+          <span className={`${styles.year} num`}>2026</span>
         </div>
 
         <div className={styles.grid}>
@@ -46,7 +46,7 @@ export default function WeddingCalendar() {
                 {day && (
                   <>
                     {day === WEDDING_DAY && <RingSVG />}
-                    <span className={styles.dayNumber}>{day}</span>
+                    <span className={`${styles.dayNumber} num`}>{day}</span>
                   </>
                 )}
               </div>
@@ -56,7 +56,7 @@ export default function WeddingCalendar() {
       </div>
 
       <p className={styles.dateText}>
-        Ждём вас <span className={styles.dateHighlight}>1 августа 2026 года</span>🤍
+        Ждём вас <span className={styles.dateHighlight}><span className="num">1</span> августа <span className="num">2026</span> года</span>🤍
       </p>
 
     </div>

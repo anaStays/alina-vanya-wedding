@@ -40,7 +40,7 @@ export default function Timeline() {
             key={i}
             className={`${styles.event} ${event.align === 'right' ? styles.eventRight : styles.eventLeft}`}
           >
-            <p className={styles.time}>{event.time}</p>
+            <p className={`${styles.time} num`}>{event.time}</p>
             <h3 className={styles.eventTitle}>{event.title}</h3>
             <p className={styles.text}>{event.text}</p>
           </div>

@@ -60,7 +60,7 @@
 }
 
 .time {
-  font-family: var(--font-main);
+  /* font-family: var(--font-main); */
   font-size: var(--font-size-lg);
   color: var(--color-text-muted);
   margin-bottom: 4px;

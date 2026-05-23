@@ -39,7 +39,7 @@
 }
 
 .year {
-  font-family: var(--font-main);
+  /* font-family: var(--font-main); */
   font-size: var(--font-size-xl);
   font-weight: 300;
 }
@@ -66,7 +66,7 @@
   justify-content: center;
   aspect-ratio: 1;
   font-family: var(--font-main);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
 }
 
 .empty {
@@ -92,7 +92,7 @@
 }
 
 .dateText {
-  font-family: var(--font-main);
+  /* font-family: var(--font-main); */
   font-size: var(--font-size-lg);
   color: var(--color-text-muted);
   text-align: center;
@@ -105,7 +105,7 @@
 }
 
 .dateXlText {
-  font-family: var(--font-main);
+  /* font-family: var(--font-main); */
   font-size: var(--font-size-xl);
   color: var(--color-text-muted);
   text-align: center;

@@ -26,8 +26,10 @@
   --color-white: #ffffff;
 
   /* Шрифты */
+  /* --font-main: 'Cormorant Garamond', Georgia, serif;
+  --font-cursive: 'Great Vibes', cursive; */
   --font-main: 'Cormorant Garamond', Georgia, serif;
-  --font-cursive: 'Great Vibes', cursive;
+  --font-cursive: 'AnastasiaScriptC';
   --font-size-sm: 0.875rem;
   --font-size-md: 1.5rem;
   --font-size-lg: 2rem;
