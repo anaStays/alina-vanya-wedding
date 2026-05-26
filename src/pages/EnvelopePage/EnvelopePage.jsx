@@ -1,10 +1,16 @@
 import styles from './EnvelopePage.module.css'
+import envelope from '../../assets/envelope.png'
+import seal from '../../assets/seal.png'
 
 export default function EnvelopePage({ onComplete }) {
   return (
-    <div className={styles.page}>
-      <h1>Envelope Page</h1>
-      <button onClick={onComplete}>Далее →</button>
-    </div>
+    <main className={styles.page}>
+      <div className={styles.container}>
+        <div className={styles.envelopeWrap} onClick={onComplete}>
+          <img src={envelope} alt="Конверт" className={styles.envelope} />
+          <img src={seal} alt="Сургучная печать" className={styles.seal} />
+        </div>
+      </div>
+    </main>
   )
 }

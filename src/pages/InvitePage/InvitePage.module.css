@@ -33,8 +33,7 @@
   align-items: center;
   padding: var(--spacing-lg) var(--spacing-md);
   position: relative;
-  overflow: hidden; 
-  /* убираем background-image отсюда */
+  overflow: hidden;
 }
 
 .page::before {
@@ -51,7 +50,7 @@
 
 .scroll {
   position: relative;
-  z-index: 1; /* контент поверх размытого фона */
+  z-index: 1;
   width: 100%;
   max-width: 860px;
   background-color: var(--invite-bg);

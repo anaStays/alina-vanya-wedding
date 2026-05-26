@@ -10,6 +10,7 @@
   --invite-bg: #ffffff;
   --invite-border: #d7dccf;
   --invite-frame: #5f6f58;
+  --invite-frame-lllight: #5f6f588e;
   --invite-frame-dark: #45523f;
   --invite-frame-light: #65745d;
   --invite-frame-light-light: #97a88e;
@@ -22,6 +23,7 @@
   /* Текст */
   --color-text: #3a3a3a;
   --color-text-muted: #6b7663;
+  --color-text-muted-light: #6b7663c2;
   --color-text-light: #7a7a7a;
   --color-white: #ffffff;
 

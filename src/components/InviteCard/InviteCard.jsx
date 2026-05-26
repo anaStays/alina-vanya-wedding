@@ -7,10 +7,10 @@ export default function InviteCard({ photo, bride, groom, date }) {
     <div className={styles.frame}>
       <div className={styles.card}>
 
-        <div className={styles.topRow}>
+        {/* <div className={styles.topRow}>
           <span className={styles.monogram}>{bride[0]}&{groom[0]}</span>
           <span className={`${styles.date} num`}>{date}</span>
-        </div>
+        </div> */}
 
         <div className={styles.photoStack}>
           <h1 className={styles.headlineTop}>Она сказала</h1>
