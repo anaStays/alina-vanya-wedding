@@ -40,9 +40,12 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('../../assets/bg.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('../../assets/bg6.png');
+  /* background-size: cover;
+  background-position: center; */
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100% auto;
   filter: blur(4px) brightness(1.1);
   transform: scale(1.05);
   z-index: 0;

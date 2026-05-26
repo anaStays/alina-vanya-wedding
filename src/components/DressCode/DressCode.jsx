@@ -9,12 +9,12 @@ import boy1 from '../../assets/dresses/boy_1.png'
 import boy2 from '../../assets/dresses/boy_2.png'
 
 const colors = [
-  { hex: '#70824e', name: 'Название цвета' },
-  { hex: '#88a757', name: 'Название цвета' },
-  { hex: '#b5c682', name: 'Название цвета' },
-  { hex: '#4a2711', name: 'Название цвета' },
-  { hex: '#d7b695', name: 'Название цвета' },
-  { hex: '#8c6141', name: 'Название цвета' },
+  { hex: '#70824e', name: 'Оливка с мартини' },
+  { hex: '#88a757', name: 'Брокколи на пару' },
+  { hex: '#b5c682', name: 'Фисташковое мороженое' },
+  { hex: '#4a2711', name: 'Кофейная гуща' },
+  { hex: '#d7b695', name: 'Шоколадное молоко' },
+  { hex: '#8c6141', name: 'Тирамису' },
 ]
 
 const girlImages = [girl1, girl2, girl3, girl4]
