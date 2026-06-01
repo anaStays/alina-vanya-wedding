@@ -1,6 +1,6 @@
 import styles from './BottomPanel.module.css'
 
-export default function BottomPanel({ quote, author }) {
+export default function BottomPanel({ quote }) {
   return (
     <div className={styles.panel}>
       <div className={styles.corner + ' ' + styles.cornerTL} />
@@ -8,7 +8,6 @@ export default function BottomPanel({ quote, author }) {
       <div className={styles.corner + ' ' + styles.cornerBL} />
       <div className={styles.corner + ' ' + styles.cornerBR} />
       <p className={styles.quote}>{quote}</p>
-      <p className={styles.author}>{author}</p>
     </div>
   )
 }

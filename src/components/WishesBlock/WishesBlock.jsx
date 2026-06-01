@@ -3,6 +3,7 @@ import money from '../../assets/money.png'
 import flowers from '../../assets/flowers.png'
 import petard from '../../assets/petard.png'
 import dress from '../../assets/dress.png'
+import slipper from '../../assets/slipper.png'
 
 const wishes = [
   {
@@ -30,7 +31,7 @@ const wishes = [
     align: 'right',
   },
   {
-    icon: dress,
+    icon: slipper,
     title: 'Удобная обувь',
     text: 'Банкет будет проходить на природе, рекомендуем выбрать удобную обувь или взять с собой сменную.',
     align: 'left',

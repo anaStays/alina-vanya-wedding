@@ -27,7 +27,7 @@ export default function InviteCard({ photo, bride, groom, date }) {
         </div>
 
         <p className={styles.subtitle}>
-          и теперь, мы ждём вас на нашу свадьбу
+          и теперь мы ждём вас на нашу свадьбу
         </p>
 
         {/* <BottomPanel

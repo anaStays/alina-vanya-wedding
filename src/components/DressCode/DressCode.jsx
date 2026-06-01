@@ -1,12 +1,20 @@
 import styles from './DressCode.module.css'
 import { useRef, useEffect } from 'react'
 
-import girl1 from '../../assets/dresses/girl_1.png'
-import girl2 from '../../assets/dresses/girl_2.png'
-import girl3 from '../../assets/dresses/girl_3.png'
-import girl4 from '../../assets/dresses/girl_4.png'
-import boy1 from '../../assets/dresses/boy_1.png'
-import boy2 from '../../assets/dresses/boy_2.png'
+import girl1 from '../../assets/dresses/girl1.png'
+import girl2 from '../../assets/dresses/girl2.png'
+import girl3 from '../../assets/dresses/girl3.png'
+import girl4 from '../../assets/dresses/girl4.png'
+import girl5 from '../../assets/dresses/girl5.png'
+import girl6 from '../../assets/dresses/girl6.png'
+import girl7 from '../../assets/dresses/girl7.png'
+import boy1 from '../../assets/dresses/boy1.png'
+import boy2 from '../../assets/dresses/boy2.png'
+import boy3 from '../../assets/dresses/boy3.png'
+import boy4 from '../../assets/dresses/boy4.png'
+import boy5 from '../../assets/dresses/boy5.png'
+
+import BottomPanel from '../BottomPanel/BottomPanel'
 
 const colors = [
   { hex: '#70824e', name: 'Оливка с мартини' },
@@ -17,8 +25,8 @@ const colors = [
   { hex: '#8c6141', name: 'Тирамису' },
 ]
 
-const girlImages = [girl1, girl2, girl3, girl4]
-const boyImages = [boy1, boy2]
+const girlImages = [girl1, girl2, girl3, girl4, girl5, girl6, girl7]
+const boyImages = [boy1, boy2, boy3, boy4, boy5]
 
 
 function Carousel({ images }) {
@@ -92,6 +100,16 @@ export default function DressCode() {
           </div>
         ))}
       </div>
+
+      <h3 className={styles.sectionTitle}>Палитра</h3>
+      <BottomPanel
+        quote={'лесные зелёные, тёплые коричневые'}
+      />
+
+      <h3 className={styles.sectionTitle}>Формат</h3>
+      <BottomPanel
+        quote={'элегантный, но комфортный'}
+      />
 
       <h3 className={styles.sectionTitle}>Идеи для девушек</h3>
       <Carousel images={girlImages} />

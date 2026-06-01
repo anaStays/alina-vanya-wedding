@@ -70,15 +70,17 @@
   transform: translate(-50%, -50%) scale(1.05);
 }
 
-.label {
-  margin-top: var(--spacing-lg);
-  font-family: var(--font-cursive);
-  font-size: var(--font-size-xl);
-  color: var(--invite-frame);
-  letter-spacing: 0.1em;
+.hint {
+  font-family: var(--font-main);
+  font-size: var(--font-size-lg);
+  color: var(--invite-bg);
   text-align: center;
-  filter: drop-shadow(0 2px 4px rgba(255,255,255,0.8));
+  letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.85;
+  font-weight: 500;
 }
+
 
 @media (max-width: 860px) {
   .page::before {

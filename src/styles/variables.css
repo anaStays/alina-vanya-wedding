@@ -33,6 +33,7 @@
   --font-main: 'Cormorant Garamond', Georgia, serif;
   --font-cursive: 'AnastasiaScriptC';
   --font-size-sm: 0.875rem;
+  --font-size-sm-md: 1.3rem;
   --font-size-md: 1.5rem;
   --font-size-lg: 2rem;
   --font-size-xl: 3rem;
@@ -51,7 +52,8 @@
 @media (max-width: 860px) {
   :root {
     --font-size-sm: 0.75rem;
-    --font-size-md: 0.875rem;
+    --font-size-sm-md: 0.8rem;
+    --font-size-md: 1.0rem;
     --font-size-lg: 1.2rem;
     --font-size-xl: 1.8rem;
 
@@ -67,7 +69,8 @@
 @media (max-width: 480px) {
   :root {
     --font-size-sm: 0.6rem;
-    --font-size-md: 0.8rem;
+    --font-size-sm-md: 0.8rem;
+    --font-size-md: 0.9rem;
     --font-size-lg: 1rem;
     --font-size-xl: 1.5rem;
 
@@ -82,8 +85,9 @@
 
 @media (max-width: 360px) {
   :root {
-    --font-size-sm: 0.4rem;
-    --font-size-md: 0.6rem;
+    --font-size-sm: 0.5rem;
+    --font-size-sm-md: 0.6rem;
+    --font-size-md: 0.7rem;
     --font-size-lg: 0.875rem;
     --font-size-xl: 1.2rem;
 

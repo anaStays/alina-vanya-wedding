@@ -6,6 +6,8 @@ import LocationBlock from '../../components/LocationBlock/LocationBlock'
 import Timeline from '../../components/Timeline/Timeline'
 import WishesBlock from '../../components/WishesBlock/WishesBlock'
 import DressCode from '../../components/DressCode/DressCode'
+import RSVPForm from '../../components/RSVPForm/RSVPForm'
+import FinalBlock from '../../components/FinalBlock/FinalBlock'
 
 export default function InvitePage() {
   return (
@@ -22,6 +24,8 @@ export default function InvitePage() {
         <Timeline />
         <WishesBlock />
         <DressCode />
+        <RSVPForm />
+        <FinalBlock />
       </div>
     </main>
   )
