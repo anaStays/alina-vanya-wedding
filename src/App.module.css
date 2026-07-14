@@ -182,3 +182,28 @@
     border-right-color: var(--border);
   }
 }
+
+.loader {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+  animation: fadeOut 0.5s ease 0.8s forwards;
+}
+
+.loaderText {
+  font-family: var(--font-cursive);
+  font-size: clamp(3rem, 10vw, 6rem);
+  color: var(--invite-frame);
+  animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; pointer-events: none; }
+}

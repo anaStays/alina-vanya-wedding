@@ -74,7 +74,7 @@ export default function RSVPForm() {
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.title}>Анкета гостя</h2>
-      <p className={styles.dateHighlight}><p className={styles.subtitle}>Пожалуйста, заполните до <span className="num">1</span> июля <span className="num">2026</span></p></p>
+      <div className={styles.dateHighlight}><p className={styles.subtitle}>Пожалуйста, заполните до <span className="num">1</span> июля <span className="num">2026</span></p></div>
 
       <div className={styles.form}>
 
